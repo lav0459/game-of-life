@@ -425,6 +425,23 @@
                         </dependencies>
                     </plugin>
                 </plugins>
+                <pluginManagement>
+        <plugins>
+            <plugin>
+            <groupId> ----- </groupId>
+            <artifactId>maven-jar-plugin</artifactId> (check your plugin ) 
+            <version>3.0.2</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <mainClass> ------ </mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+            </plugin>
+        </plugins>
+        </pluginManagement>
             </build>
             <reporting>
                 <plugins>
